@@ -1,0 +1,32 @@
+Exercise TypeSript
+
+INTRODUCTION
+
+1. Complete the sentence:
+
+TypeScript allows developers to add types to JavaScript.
+
+2. Complete the sentence:
+
+JavaScript is a looselytyped language.
+
+TYPESCRIPT GET STARTED
+
+1. The TypeScript compiler can be configured with which file?
+
+tsconfig.json
+
+TYPESCRIPT SIMPLE TYPES
+
+1. There are two main ways TypeScript assigns a type:
+
+Explicit
+Implicit
+
+2. Create a "firstName" variable, string type using Implicit type:
+
+let firstName= "Dylan";
+
+3. Create a "firstName" variable, string type using Explicit type:
+
+let firstName: string= "Dylan";
