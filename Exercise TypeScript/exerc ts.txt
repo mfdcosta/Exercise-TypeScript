@@ -30,3 +30,19 @@ let firstName= "Dylan";
 3. Create a "firstName" variable, string type using Explicit type:
 
 let firstName: string= "Dylan";
+
+TYPESCRIPT SPECIAL TYPES
+
+1. Create an empty "myVar" variable, and disable type checking:
+
+let myVar: any;
+
+2. Create an empty "myVar" variable, and specify it should be an unknown type:
+
+let myVar: unknown;
+
+TYPESCRIPT ARRAYS
+
+Prevent the array from being changed:
+
+const names: readonly string[] = ["Dylan"];
