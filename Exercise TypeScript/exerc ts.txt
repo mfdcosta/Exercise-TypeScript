@@ -55,3 +55,39 @@ false
 2. Define ourTuple as string and boolean, in that order:
 
 let ourTuple: [string, boolean];
+
+TYPESCRIPT OBJECT TYPES
+
+1. Add the correct types for the object below:
+
+const car: { type: string, model: string, year: number} = {type: "Toyota",model: "Corolla",year: 2009};
+
+2. Specify that the second property, called model, should be optional:
+
+const car: { type: string, model?: string } = {type: "Toyota"};
+
+TYPESCRIPT ENUMS
+
+1. Create an enum called myEnum, with 2 constants (myFirstConst, mySecondConst) with default values:
+
+enum myEnum{myFirstConst,mySecondConst};
+
+2. Create a Type Alias for a string, called carType:
+
+type carType = string;
+
+TYPESCRIPT ALIASES & INTERFACES
+
+1. Create a Type Alias for a string, called carType:
+
+type carType = string
+
+2. Create an interface called myInterface, with the property myProp as a string:
+
+interface myInterface {myProp: string}
+
+3. Extend the myInterface interface from last exercise, and add a property myExtProp as a number:
+
+interface myExtInterface extends myInterface{myExtProp: number}
+
+
