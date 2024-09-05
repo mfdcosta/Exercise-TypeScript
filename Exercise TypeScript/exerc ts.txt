@@ -46,3 +46,12 @@ TYPESCRIPT ARRAYS
 Prevent the array from being changed:
 
 const names: readonly string[] = ["Dylan"];
+
+TYPESCRIPT TUPLES
+
+1. The order of value types does not matter for Tuples:
+false
+
+2. Define ourTuple as string and boolean, in that order:
+
+let ourTuple: [string, boolean];
